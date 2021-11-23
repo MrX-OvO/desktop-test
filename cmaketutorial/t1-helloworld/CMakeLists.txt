@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(HelloWorld VERSION 0.0.1)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED true)
+set(SRC_LIST main.cpp)
+message(STATUS "This is BINARY dir" ${HelloWorld_BINARY_DIR})
+message(STATUS "This is SOURCE dir" ${HelloWorld_SOURCE_DIR})
+add_executable(HelloWorld ${SRC_LIST})

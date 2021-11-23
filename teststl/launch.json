@@ -1,0 +1,38 @@
+/*
+ * @Autor        : MrX-OvO
+ * @Date         : 2021-08-01 15:24:12
+ * @LastEditTime : 2021-08-04 17:25:55
+ * @LastEditors  : MrX-OvO
+ * @Description  : description
+ * @FilePath     : /test/teststl/launch.json
+ * Copyright 2021 MrX-OvO, All Rithts Rerserved
+ * 
+ To: One is never too old to learn...
+ */
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/test03",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

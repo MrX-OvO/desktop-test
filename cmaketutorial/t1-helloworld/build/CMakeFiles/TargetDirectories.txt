@@ -1,0 +1,3 @@
+/home/mrxovo/Desktop/test/cmaketutorial/t1-helloworld/build/CMakeFiles/edit_cache.dir
+/home/mrxovo/Desktop/test/cmaketutorial/t1-helloworld/build/CMakeFiles/rebuild_cache.dir
+/home/mrxovo/Desktop/test/cmaketutorial/t1-helloworld/build/CMakeFiles/HelloWorld.dir
